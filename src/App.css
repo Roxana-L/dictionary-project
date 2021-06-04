@@ -5,6 +5,10 @@ a {
   text-decoration: none;
   color: #9671f3;
 }
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .App-header {
   margin: 30px 0;
 }
