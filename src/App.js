@@ -1,5 +1,5 @@
 import Dictionary from "./Dictionary";
-import logo from "./logo.png";
+import searching from "./searching.png";
 import "./App.css";
 
 export default function App() {
@@ -7,10 +7,14 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <img
+            src={searching}
+            className="App-searching img-fluid"
+            alt="searching"
+          />
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="ocean" />
         </main>
         <footer className="App-footer">
           <small>
